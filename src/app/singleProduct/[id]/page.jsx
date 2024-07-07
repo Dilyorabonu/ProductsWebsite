@@ -21,8 +21,12 @@ async function Product({ params }) {
         <img src={product.thumbnail} />
       </figure>
       <div className="card-body">
+        <div className="card-actions justify-start mt-2">
+          <div className="badge badge-outline">Rating: {product.rating}</div>
+          <div className="badge badge-outline">Stock: {product.stock}</div>
+        </div>
         <h2 className="card-title">
-          {product.title}
+          Title: {product.title}
           <div className="badge badge-secondary">NEW</div>
         </h2>
         <p>{product.description}</p>

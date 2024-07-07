@@ -3,10 +3,10 @@ import React from "react";
 function Contact() {
   return (
     <div className="p-8 bg-base-100 min-h-screen">
-      <h1 className="text-4xl font-bold mb-8 text-center text-indigo-600">
+      <h1 className="text-5xl font-bold mb-8 text-center text-indigo-600">
         Contact Us
       </h1>
-      <form className="space-y-4 p-6 bg-base rounded-lg shadow-lg">
+      <form className="space-y-4 p-6 bg-base rounded-lg">
         <div className="form-control">
           <label htmlFor="name" className="label">
             <span className="label-text">Name</span>

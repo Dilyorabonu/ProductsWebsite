@@ -7,7 +7,7 @@ function Navbar() {
       <div className="navbar align-elements">
         <div className="flex-1">
           <Link href="/" className="btn btn-ghost text-xl">
-            MyProduct
+            MyStore
           </Link>
         </div>
         <ul className="menu menu-horizontal">
@@ -16,6 +16,9 @@ function Navbar() {
           </li>
           <li>
             <Link href="/about">About Us</Link>
+          </li>
+          <li>
+            <Link href="/products">Products</Link>
           </li>
           <li>
             <Link href="/contact">Contact Us</Link>
